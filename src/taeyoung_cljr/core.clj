@@ -2,6 +2,6 @@
   (:gen-class))
 
 (defn -main
-  "I don't do a whole lot ... yet."
+  "lein run을 하면 이 함수가 실행됨."
   [& args]
-  (println "Hello, World!"))
+  (println "Hello, World!" args))
