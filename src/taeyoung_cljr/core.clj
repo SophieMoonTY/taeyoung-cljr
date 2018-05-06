@@ -7,6 +7,12 @@
   (println "my-print" obj)
 )
 
+(defn addTwo [par1 par2]
+  (+ par1 par2)
+)
+
+(println (addTwo 3 5))
+
 (defn -main
   "lein run을 하면 이 함수가 실행됨."
   [& args]
